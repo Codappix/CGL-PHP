@@ -17,4 +17,3 @@ This is a early version. More information can be taken from Github at
 `current issues`_.
 
 .. _current issues: https://github.com/Codappix/CGL-PHP/issues
-

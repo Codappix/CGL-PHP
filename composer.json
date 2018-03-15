@@ -1,0 +1,23 @@
+{
+    "name": "codappix/cgl-php",
+    "description": "Contains PHP_CodeSniffer rules for php that we like. Uses PSR-2 as base rules.",
+    "type": "phpcodesniffer-standard",
+    "license": "GPL-2.0+",
+    "keywords": [
+        "phpcs",
+        "cgl",
+        "php"
+    ],
+    "homepage": "https://github.com/Codappix/CGL-PHP",
+    "authors": [
+        {
+            "name": "Justus Moroni",
+            "email": "developer@leonmrni.com",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Codappix/CGL-PHP/issues/",
+        "source": "https://github.com/Codappix/CGL-PHP/"
+    }
+}

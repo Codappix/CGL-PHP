@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffe05e44f3056762fe92d9f920ddb2a0",
+    "content-hash": "96627dc64c0a094e3d9809030bbe0043",
     "packages": [
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",

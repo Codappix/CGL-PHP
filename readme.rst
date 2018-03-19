@@ -1,6 +1,18 @@
 Coding Guideline for PHP
 ========================
 
+Installation
+------------
+
+You have to require the package via composer `composer require codappix/cgl-php`.
+After that you have to add the following to the `composer.json`:
+
+    "scripts": {
+        "post-autoload-dump": [
+            "[ -d vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/CGL-PHP ] || cp -r vendor/codappix/cgl-php vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/CGL-PHP"
+        ]
+    }
+
 What does it do?
 ----------------
 

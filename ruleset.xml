@@ -6,6 +6,10 @@
     <arg name="encoding" value="utf-8"/>
     <arg name="extensions" value="php,php.dist,inc"/>
 
+    <!-- Exclude third party code -->
+    <exclude-pattern>*/.git/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
     <!-- Base rules -->
     <rule ref="PSR2"/>
 </ruleset>

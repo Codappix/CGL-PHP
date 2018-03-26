@@ -6,6 +6,13 @@
     <arg name="encoding" value="utf-8"/>
     <arg name="extensions" value="php,php.dist,inc"/>
 
+    <!-- Exclude third party code -->
+    <exclude-pattern>*/.git/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
     <!-- Base rules -->
-    <rule ref="PSR2"/>
+    <rule ref="PSR2">
+        <!-- As it does not work with new array syntax. -->
+        <exclude name="Squiz.Arrays.ArrayBracketSpacing.SpaceBeforeBracket" />
+    </rule>
 </ruleset>

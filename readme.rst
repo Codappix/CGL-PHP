@@ -5,19 +5,20 @@ Installation
 ------------
 
 You have to require the package via composer `composer require codappix/cgl-php`.
-After that you have to add the following to the `composer.json`:
 
-    "scripts": {
-        "post-autoload-dump": [
-            "[ -d vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/CGL-PHP ] || cp -r vendor/codappix/cgl-php vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/CGL-PHP"
-        ]
-    }
+Afterwards, there are multiple ways to install the standard. We recommend to require
+`dealerdirect/phpcodesniffer-composer-installer` which handles the install.
 
 What does it do?
 ----------------
 
 The goal of this package is to provide our PHP cgl rules, which are based on PSR-2, via composer.
 The package uses PHP_CodeSniffer to sniff the configured PHP files and show errors.
+
+How to use
+----------
+
+After installation, the standard is available as `CDXPHP`.
 
 Current state
 -------------

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="CGL-PHP">
+<ruleset name="CDXPHP">
     <!-- Set default settings -->
     <arg value="sp"/>
     <arg name="colors"/>

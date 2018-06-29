@@ -7,7 +7,7 @@ Installation
 You have to require the package via composer `composer require codappix/cgl-php`.
 
 Afterwards, there are multiple ways to install the standard. We recommend to require
-`dealerdirect/phpcodesniffer-composer-installer` which handles the install.
+`dealerdirect/phpcodesniffer-composer-installer` which handles the installation.
 
 What does it do?
 ----------------

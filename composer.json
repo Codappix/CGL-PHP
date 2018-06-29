@@ -23,6 +23,9 @@
     "require": {
         "squizlabs/php_codesniffer": "^2.9|^3.2"
     },
+    "suggest": {
+        "dealerdirect/phpcodesniffer-composer-installer": "Auto-installs the standard to phpcs."
+    },
     "extra": {
         "branch-alias": {
             "dev-develop": "2.0.x-dev"

@@ -2,7 +2,7 @@
     "name": "codappix/cgl-php",
     "description": "Contains PHP_CodeSniffer rules for php that we like. Uses PSR-2 as base rules.",
     "type": "phpcodesniffer-standard",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "keywords": [
         "phpcs",
         "cgl",
@@ -21,7 +21,7 @@
         "source": "https://github.com/Codappix/CGL-PHP/"
     },
     "require": {
-        "squizlabs/php_codesniffer": "^2.9|^3.2"
+        "squizlabs/php_codesniffer": "^3.5"
     },
     "suggest": {
         "dealerdirect/phpcodesniffer-composer-installer": "Auto-installs the standard to phpcs."

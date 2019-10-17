@@ -12,7 +12,7 @@ Afterwards, there are multiple ways to install the standard. We recommend to req
 What does it do?
 ----------------
 
-The goal of this package is to provide our PHP cgl rules, which are based on PSR-2, via composer.
+The goal of this package is to provide our PHP cgl rules, which are based on PSR-12, via composer.
 The package uses PHP_CodeSniffer to sniff the configured PHP files and show errors.
 
 How to use
@@ -23,7 +23,7 @@ After installation, the standard is available as `CDXPHP`.
 Current state
 -------------
 
-This is the initial version of this ruleset. We are currently only using the PSR-2 rules.
+This is the initial version of this ruleset. We are currently only using the PSR-12 rules.
 Custom rules and sniffs will follow when needed.
 
 This is a early version. More information can be taken from Github at
